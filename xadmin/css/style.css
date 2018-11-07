@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/bg.png);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+}
+ul, li, img, div, a, p, span, h1, h2, h3, h4, h5 {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+ul, li {
+	list-style-type: none;
+}
+textarea, select, input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #888888;
+}
+a {
+	color: #4c4c4c;
+	text-decoration: none;
+}
+a:hover {
+	color: #31bcea;
+	-webkit-transition: color 0.5s ease-out;
+	-moz-transition: color 0.5s ease-out;
+	-o-transition: color 0.5s ease-out;
+}
+.btn-large, .btn-medium, .btn-small {
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 5px 20px 5px 20px;
+	margin: 2px;
+	border: 1px solid #FFF;
+	-moz-box-shadow: 0 0 0 3px #31bcea;
+	-webkit-box-shadow: 0 0 0 3px #31bcea;
+	box-shadow: 0 0 0 3px #31bcea;
+	/*background: #31bcea; 
+	background-image: linear-gradient(bottom, rgb(49,188,234) 50%, rgb(94,203,239) 50%);
+	background-image: -o-linear-gradient(bottom, rgb(49,188,234) 50%, rgb(94,203,239) 50%);
+	background-image: -moz-linear-gradient(bottom, rgb(49,188,234) 50%, rgb(94,203,239) 50%);
+	background-image: -webkit-linear-gradient(bottom, rgb(49,188,234) 50%, rgb(94,203,239) 50%);
+	background-image: -ms-linear-gradient(bottom, rgb(49,188,234) 50%, rgb(94,203,239) 50%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, rgb(49,188,234)), color-stop(0.5, rgb(94,203,239)));*/
+}
+
+.btn-medium{ padding: 2px 15px 2px 15px; font-size:12px; }
+.btn-small{ padding: 0px 6px 0px 6px; font-size:10px;}
+
+input:focus, textarea:focus, select:focus {
+	-webkit-box-shadow: inset 0 0px 5px rgba(230, 68, 70, 0.5);
+	-moz-box-shadow: inset 0 0px 5px rgba(230, 68, 70, 0.5);
+	box-shadow: inset 0 0px 5px rgba(230, 68, 70, 0.5);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+div#mxalert {
+	width: 400px;
+	height: auto;
+	padding: 10px;
+	padding: 10px;
+	border: 4px solid #31bcea;
+	font-size: 14px;
+	color: #000;
+	background-color: #FFF;
+	text-align: center;
+}
+div#mxalert a.close {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 1px 4px 1px 4px;
+	margin: -10px -10px 0px 0px;
+	background-color: #FFF;
+	color: #000;
+	border: 4px solid #31bcea;
+}
+/*~~~~~~~~~~~~~NEVER REMOVE THIS CLASS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.transbg {
+	position: fixed;
+	z-index: 5000;
+	width: 100%;
+	height: auto;
+	background-color: #FFF;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.6);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+}
+
+#play_nucards_steps {
+	background:#F6F6F6;
+	font-size:15px;
+	text-align:center;
+	border:none;
+}

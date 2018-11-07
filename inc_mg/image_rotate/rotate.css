@@ -1,0 +1,43 @@
+/* rotator in-page placement */
+        div.rotator {
+	position:relative;
+	
+}
+/* rotator css */
+	div.rotator ul li {
+	float:left ;
+	position:absolute ;
+	list-style: none ;
+}
+/* rotator image style */	
+	div.rotator ul li img {
+	border:1px solid #ccc ;
+	padding: 4px ;
+	background: #FFF ;
+}
+
+div.rotator ul li.show {
+	z-index:95;
+}
+
+/* rotator in-page placement */
+        div.rotator_square {
+	position:relative;
+	
+}
+/* rotator css */
+	div.rotator_square ul li {
+	float:left ;
+	position:absolute ;
+	list-style: none ;
+}
+/* rotator image style */	
+	div.rotator_square ul li img {
+	border:0px solid #ccc ;
+	padding: 0px ;
+	background: #FFF ;
+}
+
+div.rotator ul li.show {
+	z-index:95;
+}

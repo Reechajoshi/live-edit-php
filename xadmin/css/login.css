@@ -1,0 +1,46 @@
+@charset "UTF-8";
+ul#wrap-login {
+	width:560px;
+	height:180px;	
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-280px;
+	margin-top:-90px;	
+	float:left;
+	z-index:10;
+}
+ul#wrap-login li {	
+	float:left;	
+	margin:0px;
+	padding:10px 35px 10px 35px;
+	width:210px;
+}
+ul#wrap-login li.welcome {
+	width:244px;	
+	padding-left:0px;
+	margin-top:-15px;
+	font-size:54px;
+	color:#31bcea;
+	height:180px;
+	line-height:180px;
+	font-weight:600;
+	text-shadow: -3px 0 4px #ccc;
+	border-right:1px solid #dddddd;
+}
+
+input.text {
+	color:#4c4c4c;
+	width:220px;
+	height:35px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#FFFFFF;
+	border:none;
+	-moz-box-shadow: -2px 2px 3px #ccc;
+	-webkit-box-shadow: -2px 2px 3px #ccc;
+	box-shadow: -2px 2px 3px #ccc;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')";	/* For IE 8 */
+ 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc'); /* For IE 5.5 - 7 */
+}
+

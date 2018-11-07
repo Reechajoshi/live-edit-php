@@ -1,0 +1,18 @@
+/* CAROUSEL */
+.carousel{position:relative; height:304px; width:482px; overflow:hidden;}
+.carousel h2{color:#fff;}
+.carousel .backgrounds{height:304px;}
+.carousel .backgrounds .item{width:482px; height:304px; float:left; position:relative; z-index:1;}
+.carousel .panel{background:url(../images/bg-gallery.png) repeat #373737; color:#fff; position:absolute; left:0; top:0; height:304px; width:170px; z-index:2;}
+.paging{position:absolute; top:10px; left:15px; width:60px; text-align:center; z-index:10;}
+.paging a{color:#4c4c4c; font-size:1.1em;}
+.paging .next{float:right; width:25px; height:25px; background:url(../images/carousel_next_bg.png) no-repeat 0 0;}
+.paging .previous{float:left; width:25px; height:25px; background:url(../images/carousel_previous_bg.png) no-repeat 0 0;}
+.carousel .panel .details_wrapper{position:absolute; top:20px; left:15px; width:140px; overflow:hidden; height:280px;}
+.carousel .panel .details_wrapper .details{height:280px; font-family:'PT Sans',sans-serif;}
+.carousel .panel .details_wrapper .details .detail{width:140px; height:250px; float:left; margin-top:30px;}
+/* END CAROUSEL */
+.details span{ float:left; width:100%; color:#9b9b9b; border-bottom:1px solid #9b9b9b; padding-bottom:6px; font-weight:bold; -moz-text-shadow:1px 2px 1px #000; -webkit-text-shadow:1px 2px 1px #000; text-shadow:1px 2px 1px #000; margin-bottom:6px;}
+.details h2{ float:left; width:100%; font-size:15px; font-weight:bold; margin-bottom:25px;}
+.details p{ float:left; width:100%; color:#9a9a9a;}
+.details a.more{ float:left; width:78px; height:28px; background:#F00; font-size:10px; font-weight:bold; text-align:center; line-height:28px; text-transform:uppercase; color:#fff; -moz-text-shadow:1px 2px 1px #000; -webkit-text-shadow:1px 2px 1px #000; text-shadow:1px 2px 1px #000; margin-top:30px; -webkit-border-radius:3px; -khtml-border-radius:3px; -moz-border-radius:3px; -moz-box-shadow:1px 2px 2px #373737; -webkit-box-shadow:1px 2px 2px #373737; box-shadow:1px 2px 2px #373737;}

@@ -1,0 +1,31 @@
+/***********form.css**********/
+div.file-box div:hover { background:#e64446;}
+em{ color:#e64446;}
+/***********inside.css**********/
+h1{ color:#e64446;}
+p#err-main{ background-color:#e64446;}
+#main-nav li span:hover{border-color:#e64446 white white white; }
+ul#main-nav li a.active{ color:#e64446;}
+ul#main-nav li a.add:hover, ul#main-nav li a.aactive, ul#main-nav li li a.aactive{ background:#e64446; }
+/***********list.css**********/
+div#page-action a:hover, div#page-action a.acive{color:#e64446;}
+ul#wrap-list-search input.refresh:hover, ul#wrap-list-search input.search:hover{background-color:#e64446; }
+/***********login.css**********/
+ul#wrap-login li.welcome {color:#e64446;}
+/***********style.css**********/
+a:hover { color: #e64446; }
+.btn-large, .btn-medium, .btn-small {	
+	-moz-box-shadow: 0 0 0 3px #e64446;
+	-webkit-box-shadow: 0 0 0 3px #e64446;
+	box-shadow: 0 0 0 3px #e64446;
+	background: #e64446; /* Old browsers */
+	background: -moz-linear-gradient(top, #e64446 0%, #e64446 50%, #e50000 51%, #e64446 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e64446), color-stop(50%, #e64446), color-stop(51%, #e50000), color-stop(100%, #e64446)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e64446 0%, #e64446 50%, #e50000 51%, #e64446 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e64446 0%, #e64446 50%, #e50000 51%, #e64446 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e64446 0%, #e64446 50%, #e50000 51%, #e64446 100%); /* IE10+ */
+	background: linear-gradient(top, #e64446 0%, #e64446 50%, #e50000 51%, #e64446 100%); /* W3C */
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64446', endColorstr='#e64446', GradientType=0 ); /* IE6-9 */
+}
+div#mxalert { border: 4px solid #e64446;}
+div#mxalert a.close { border: 4px solid #e64446;}

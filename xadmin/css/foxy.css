@@ -1,0 +1,31 @@
+/***********form.css**********/
+div.file-box div:hover { background:#bce51d;}
+em{ color:#bce51d;}
+/***********inside.css**********/
+h1{ color:#bce51d;}
+p#err-main{ background-color:#bce51d;}
+#main-nav li span:hover{border-color:#bce51d white white white; }
+ul#main-nav li a.active{ color:#bce51d;}
+ul#main-nav li a.add:hover, ul#main-nav li a.aactive, ul#main-nav li li a.aactive{ background:#bce51d; }
+/***********list.css**********/
+div#page-action a:hover, div#page-action a.acive{color:#bce51d;}
+ul#wrap-list-search input.refresh:hover, ul#wrap-list-search input.search:hover{background-color:#bce51d; }
+/***********login.css**********/
+ul#wrap-login li.welcome {color:#bce51d;}
+/***********style.css**********/
+a:hover { color: #bce51d; }
+.btn-large, .btn-medium, .btn-small {	
+	-moz-box-shadow: 0 0 0 3px #bce51d;
+	-webkit-box-shadow: 0 0 0 3px #bce51d;
+	box-shadow: 0 0 0 3px #bce51d;
+	background: #bce51d; /* Old browsers */
+	background: -moz-linear-gradient(top, #bce51d 0%, #bce51d 50%, #e50000 51%, #bce51d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bce51d), color-stop(50%, #bce51d), color-stop(51%, #e50000), color-stop(100%, #bce51d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bce51d 0%, #bce51d 50%, #e50000 51%, #bce51d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bce51d 0%, #bce51d 50%, #e50000 51%, #bce51d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bce51d 0%, #bce51d 50%, #e50000 51%, #bce51d 100%); /* IE10+ */
+	background: linear-gradient(top, #bce51d 0%, #bce51d 50%, #e50000 51%, #bce51d 100%); /* W3C */
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bce51d', endColorstr='#bce51d', GradientType=0 ); /* IE6-9 */
+}
+div#mxalert { border: 4px solid #bce51d;}
+div#mxalert a.close { border: 4px solid #bce51d;}
